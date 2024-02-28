@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My portfolio .
+        </title>
+        <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+        <link rel="stylesheet" href=" ">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .header{
+                width:100%;
+                height:100vh;
+                background-color:rgb(24, 167, 228);
+                background-image: url('pf.jpg');
+            }
+            .nav{
+                display:flex;
+                margin:auto;
+                width:90%;
+                padding:20px;
+                align-items:center;
+                justify-content: space-between;
+
+            }
+            nav ul li{
+                display:inline-block;
+                list-style: none;
+                margin:10px;
+                top:80px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:rgb(236, 8, 8);
+                font-weight: bolder;
+            }
+            nav ul li a:hover{
+                background-color:steelblue;
+                border-radius: 2px;
+                color:bisque;
+            }
+            .button-CV,.Button-gfc{
+                display:inline-block;
+                margin-left: 0%;
+                border-radius: 5px;
+                transition: background-color 0.5s;
+                background-color: black;
+                padding:10px;
+                text-decoration: none;
+                font-weight: bold;
+                color:rgb(209, 132, 17);
+                border:none;
+                cursor:pointer;
+            }
+            .button-cv:hover{
+                background-color: rgb(197, 128, 38);
+                color:black;
+            }
+            .button-gfc{
+                background-color: yellowgreen;
+            }
+            .button-gfc:hover{
+                background-color: rgb(35, 206, 206);
+                color:black;
+            }
+            .body{
+                margin-left: 100px;
+                margin-top:100px ;
+            }
+            .body h1{
+                font-size: 30px;
+                color:rgb(26, 159, 137);
+                margin-bottom: 20px;
+            }
+            .demo1{
+                color:rgb(113, 45, 9);
+                margin-bottom: 30px;
+            }
+            .demo2{
+                color:rgb(191, 205, 42);
+                line-height:20px;
+            }
+            .button-lrn,.button-hire{
+                background:rgb(168, 35, 55);
+                padding:10px ,12px;
+                text-decoration: none;
+                font-weight: bold;
+                color:rgb(140, 69, 103);
+                display:inline-block;
+                margin:30px,8px;
+                transition: background-color 0.3s;
+                border:none;
+                letter-spacing: 1px;
+                cursor:pointer;
+            }
+            .button-lrn:hover{
+                background-color: purple;
+                color:black;
+            }
+            .button-hire{
+                background-color: rgb(212, 14, 186);
+            }
+            .button-hire:hover{
+                background-color: yellow;
+            }
+            .span{
+                color:aqua;
+            }
+            .image img{
+                height:70%;
+                position:absolute;
+                right:150%;
+                bottom:10%;
+                transform:translate(-60%) ;
+            }
+            .imge{
+                height:100%;
+                width:45%;
+                position:absolute;
+                bottom:0;
+                right:100px;
+            }
+        </style>
+    </head>
+    <body >
+       <div class="main-container">
+        
+        <div class="header" >
+            
+            <nav>
+                
+                <a href="#"><img src="th.jpeg" alt="logo"  height="200px"width="320px" style="position:relative;left:1000px;right:60px;top:280px; background-color:azure;"></a>
+                <ul style="position:relative;bottom:100px;">
+                    <li><a href="portfolio.html">HOME</a></li>
+                    <li><a href="pf_about.html">ABOUT</a></li>
+                    <li><a href="pfprj.html">PROJECTS</a></li>
+                    <li><a href="pfser.html">SERVICES</a></li>
+                    <li><a href="pfcon.html">CONTECT ME</a></li>
+                    <li><button type="button" class="button-gfc">Get Free Consultant and advice</button></li>
+                    <li><a href="Akash_cv.docx" download="cv"<button type="button" class="button-cv">DOWNLOAD CV</button></a></li>
+                </ul>
+            </nav>
+            <div class="body" >
+                <p class="demo1">GET EVERY SINGLE SOLUTIONS.</p>
+                <h1>Hello <br> I'm Akash <span> Singh.</span></h1>
+                <p class="demo2">From concept to deployment,I bring ideas<br> to life as a versatile full stacck developer...</p>
+
+               <a href="https://en.wikipedia.org/wiki/Web_development" <button type="button" class="button-lrn">LEARN MORE</button></a>
+                <button type="button-hire">HIRE ME</button>
+            </div>
+            <div class="image">
+                <img src=" ">
+            </div>
+        </div>
+        </div>
+
+    </body>
+</html>
